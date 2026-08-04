@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# large dataset files
+data/IMDB Dataset.csv
+*.csv
+
+# allow small sample only
+!data/sample_reviews.csv
