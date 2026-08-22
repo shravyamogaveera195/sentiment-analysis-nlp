@@ -1,9 +1,12 @@
 import streamlit as st 
+from utils.styles import apply_theme
+apply_theme()
+
 import joblib
 import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-#import matplotlib.pyplot as plt
+
 
 #loading models
 tfidf= joblib.load(r"C:\Users\shreyaash mogaveera\sentiment-analysis-nlp\model\tfidf_vectorizer.pkl")
